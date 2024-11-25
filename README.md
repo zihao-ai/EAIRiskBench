@@ -63,9 +63,7 @@ python scene_image_generation.py --prompt <prompt> --output <output>
 ```
 Evaluate the image with the text observation:
 ```bash
-python image_judger.py --scene <scene> \
-                      --img_path <img_path> \
-                      --text_observation <text_observation>
+python image_judger.py --scene <scene> --img_path <img_path> --text_observation <text_observation>
 ```
 
 ### Text Observation Generation:
