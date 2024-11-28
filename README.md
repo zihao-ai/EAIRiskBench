@@ -22,7 +22,7 @@ cd EARBench
 pip install -r requirements.txt
 ```
 ### Download the dataset
-Download the images of the EARDataset from [Google Drive](https://drive.google.com/file/d/1M1qYrCXHG7QmcUUAJ7qQh4brWo_jS5Z5/view?usp=sharing) / [Hugging Face](https://huggingface.co/datasets/ZihaoZhu/EARDataset) and unzip it.
+Download the images of the EARDataset from [Google Drive](https://drive.google.com/file/d/1M1qYrCXHG7QmcUUAJ7qQh4brWo_jS5Z5/view?usp=sharing) / [Hugging Face](https://huggingface.co/datasets/ZihaoZhu/EARDataset) and unzip/rename it.
 The structure of the dataset should be like this:
 ```
 EARDataset
@@ -76,7 +76,7 @@ If you find our work helpful, please cite:
 ```bibtex
 @aticle{zhu2024EARBench,
   title={EARBench: Towards Evaluating Physical Risk Awareness for Task Planning of Foundation Model-based Embodied AI Agents},
-  author={Zhu, Zihao and Wu, Bingzhe and Zhang, Zhengyou and Han, Lei and Wu, Baoyuan},
+  author={Zhu, Zihao and Wu, Bingzhe and Zhang, Zhengyou and Han, Lei and Liu, Qingshan and Wu, Baoyuan},
   journal={arXiv preprint arXiv:2408.04449},
   year={2024}
 }
